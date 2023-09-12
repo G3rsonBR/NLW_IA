@@ -23,15 +23,15 @@ export function App() {
         </div>
       </div>
       
-      <main className="flex-1 p-6 flex gap-6">
+      <main className="flex-1 p-6 flex gap-6 bg-zinc-900">
         <div className="flex flex-col flex-1 gap-4">
           <div className="grid grid-rows-2 gap-4 flex-1">
             <Textarea
-              className="resize-none p-4 leading-relaxed"
+              className="resize-none p-4 leading-relaxed bg-black"
               placeholder="Inclua o prompt para a IA..."
             />
             <Textarea
-              className="resize-none p-4 leading-relaxed" 
+              className="resize-none p-4 leading-relaxed bg-black" 
               placeholder="Resultado gerado pela IA..."
               readOnly
             />
